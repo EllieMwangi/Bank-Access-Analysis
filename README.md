@@ -13,3 +13,16 @@ Inorder to figure out how we can predict which individuals are most likely to ha
 
 ## Data Description
 The data used for analysis contains demographic information and what financial services are used by individuals across East Africa. This data was extracted from various Finscope surveys ranging from 2016 to 2018 and is relevant for analysis.
+
+## Summary of Findings
+The proportion of individuals with no bank accounts is extremely high in comparison to those with that have a bank account. 85% of all respondents have no bank accounts. Kenya has the highest penetration of banking services, while Rwanda has the lowest, followed by Tanzania.
+### Demographic Factors Analysis
+- The categorical demographic factors such as *gender*, *job type*, *location* as well as *accesss to a cellphone* having a significant impact on whether an individual has an account or not.
+- 63% of respondents without bank accounts live in rural areas. Banks should focus their expansion plans on these regions to boost adoption.
+- 82% of respondents with access to a cell phone did not have a bank account. Banks should target this market through mobile banking initiatives.
+- 61% of respondents without a bank account were women. Women-led initiatives and affirmative action programs by financial institutions could help tap into this market.
+
+### Model Development
+- Model performance was highly affected by the imbalance in the target variable. Upsampling the minority class drastically improved performance of the tree based methods.
+- The best performing model was a tuned random forest model with an accuracy of 93% and an roc_auc score of 96%
+- The random forest cited the most important features in separating classes as respondent age, level of education, household size, type of job and cell phone access.
