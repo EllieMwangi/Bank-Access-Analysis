@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/635e3257-92e8-42a0-9de1-c7e9d5c0751b)# Finscope Survey Response Analysis on Bank Access
+# Finscope Survey Response Analysis on Bank Access
 
 ## Executive Summary
 Financial inclusion remains a major obstacle to economic and human development in East Africa, with only 13.9% of adults in Kenya, Rwanda, Tanzania, and Uganda having access to or using a commercial bank account. Despite the rise of mobile money and innovative fintech solutions, banks continue to play a key role in facilitating access to financial services. Access to a bank account is crucial for long-term economic growth, enabling savings, facilitating payments, and improving access to credit.
@@ -7,9 +7,10 @@ In this analysis, we examined the state of financial inclusion and identified ke
 
 Recommendations include focusing expansion efforts in rural areas, targeting mobile banking services, and implementing women-centered initiatives to boost financial inclusion in the region. Financial institutions should consider adopting these strategies to effectively bridge the gap in access to banking services and contribute to economic development.
 
+Access the colab notebook with the complete analysis [here.](https://colab.research.google.com/drive/1GHrMC5d34JFLPn0U3UcYHCPl5tSSjNg1?usp=sharing)
 ## Data Description
 The data used for analysis contains demographic information and what financial services are used by individuals across East Africa. This data was extracted from various Finscope surveys ranging from 2016 to 2018 and is relevant for analysis.
-![Entity Relationship Diagram](https://github.com/user-attachments/assets/5797924b-d2eb-42db-ba9f-ad9fbbb8a50b)
+![Entity Relationship Diagram](https://github.com/user-attachments/assets/e2714af5-03f0-411a-8865-f1da932ac102)
 
 ### Demographic Factors Analysis
 - The categorical demographic factors such as *gender*, *job type*, *location* as well as *accesss to a cellphone* having a significant impact on whether an individual has an account or not.
