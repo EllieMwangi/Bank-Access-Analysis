@@ -11,6 +11,7 @@ Inorder to figure out how we can predict which individuals are most likely to ha
 - Identify key demographic factors that influence whether an individual has a bank account or not.
 - Build a classification model that predicts if an individual has a bank account or not using identified demographic factors.
 
+Access the colab notebook with the complete analysis [here.](https://colab.research.google.com/drive/1GHrMC5d34JFLPn0U3UcYHCPl5tSSjNg1?usp=sharing)
 ## Data Description
 The data used for analysis contains demographic information and what financial services are used by individuals across East Africa. This data was extracted from various Finscope surveys ranging from 2016 to 2018 and is relevant for analysis.
 
