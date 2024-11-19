@@ -1,4 +1,4 @@
-# Bank Access Analysis
+# Finscope Survey Response Analysis on Bank Access
 
 Financial Inclusion remains one of the main obstacles to economic and human development in Africa. For example, across Kenya, Rwanda, Tanzania, and Uganda only 9.1 million adults (or 13.9% of the adult population) have access to or use a commercial bank account.
 
@@ -15,7 +15,7 @@ Inorder to figure out how we can predict which individuals are most likely to ha
 The data used for analysis contains demographic information and what financial services are used by individuals across East Africa. This data was extracted from various Finscope surveys ranging from 2016 to 2018 and is relevant for analysis.
 
 ## Summary of Findings
-The proportion of individuals with no bank accounts is extremely high in comparison to those with that have a bank account. 85% of all respondents have no bank accounts. Kenya has the highest penetration of banking services, while Rwanda has the lowest, followed by Tanzania.
+A staggering 85% of respondents lack a bank account, indicating a considerable barrier to financial inclusion. This is a stark contrast to the proportion of individuals with bank accounts, underscoring the challenges in expanding banking services. Kenya has the highest penetration of banking services, while Rwanda has the lowest, followed by Tanzania.
 ### Demographic Factors Analysis
 - The categorical demographic factors such as *gender*, *job type*, *location* as well as *accesss to a cellphone* having a significant impact on whether an individual has an account or not.
 - 63% of respondents without bank accounts live in rural areas. Banks should focus their expansion plans on these regions to boost adoption.
@@ -26,3 +26,5 @@ The proportion of individuals with no bank accounts is extremely high in compari
 - Model performance was highly affected by the imbalance in the target variable. Upsampling the minority class drastically improved performance of the tree based methods.
 - The best performing model was a tuned random forest model with an accuracy of 93% and an roc_auc score of 96%
 - The random forest cited the most important features in separating classes as respondent age, level of education, household size, type of job and cell phone access.
+
+In conclusion, the Finscope survey highlights the need for financial institutions to adopt inclusive, targeted strategies to improve bank access, particularly for women, rural populations, and mobile users, to enhance financial inclusion across the region.
