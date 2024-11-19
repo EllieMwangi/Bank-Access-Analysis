@@ -19,6 +19,7 @@ A staggering 85% of respondents lack a bank account, indicating a considerable b
 ### Demographic Factors Analysis
 - The categorical demographic factors such as *gender*, *job type*, *location* as well as *accesss to a cellphone* having a significant impact on whether an individual has an account or not.
 - 63% of respondents without bank accounts live in rural areas. Banks should focus their expansion plans on these regions to boost adoption.
+![rural vs urban](https://github.com/user-attachments/assets/f86b3a50-38f0-4a77-9537-8b07cf50a9f3)
 
 - 82% of respondents with access to a cell phone did not have a bank account. Banks should target this market through mobile banking initiatives.
 ![cell phone access](https://github.com/user-attachments/assets/f167364e-bdc2-44df-9e66-bdc6af9c1311)
@@ -29,5 +30,6 @@ A staggering 85% of respondents lack a bank account, indicating a considerable b
 - Model performance was highly affected by the imbalance in the target variable. Upsampling the minority class drastically improved performance of the tree based methods.
 - The best performing model was a tuned random forest model with an accuracy of 93% and an roc_auc score of 96%
 - The random forest cited the most important features in separating classes as respondent age, level of education, household size, type of job and cell phone access.
+![important features](https://github.com/user-attachments/assets/a19f323d-a2c2-4fc2-81ca-9cfc66a4deda)
 
 In conclusion, the Finscope survey highlights the need for financial institutions to adopt inclusive, targeted strategies to improve bank access, particularly for women, rural populations, and mobile users, to enhance financial inclusion across the region.
